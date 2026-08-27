@@ -13,3 +13,10 @@ MONGO_URL=mongodb+srv://mdwasimu015_db_user:KSavMq0fMHVqQUQF@cluster0.kt25fpa.mo
 mongodbPassword=KSavMq0fMHVqQUQF
 ```
 ---
+
+
+### Install mongoose
+```bash
+npm i @nestjs/mongoose mongoose
+```
+---
