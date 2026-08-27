@@ -1,8 +1,11 @@
 # Connect NestJS App with MongoDB Atlas
 
 
->Agee ei kaj complete koro---> [Environment Variables](https://github.com/Omarmdwasimuddin/NestJS-Environment-Variables)
-
+### install @nestjs/config
+```bash
+npm i @nestjs/config
+```
+>root e .env file toiri koro
 ---
 
 >Note: browse- https://www.mongodb.com/cloud/atlas/register account create koro, clusters create koro .env te database connect koro.
