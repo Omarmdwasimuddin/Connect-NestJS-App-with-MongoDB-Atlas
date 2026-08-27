@@ -27,7 +27,7 @@ npm i @nestjs/mongoose mongoose
 ```
 ---
 
->Note: app.module.ts file e add koro- import { MongooseModule } from '@nestjs/mongoose'; & imports: [EmployeeModule, CategoryModule, StudentModule, CustomerModule, ConfigModule.forRoot(), MongooseModule.forRoot(process.env.MONGO_URL!)], also note: app.module.ts file dekhe korte hobe github e .env er properties onno file thekeo hide kore dey!!!
+>Note: app.module.ts file e add koro- ConfigModule.forRoot(), MongooseModule.forRoot(process.env.MONGODB_URI!)
 
 ### `app.module.ts`
 ```bash
